@@ -22,7 +22,7 @@ public class Application {
         CatalogoBibliotecarioDAO cbd = new CatalogoBibliotecarioDAO(em);
         UtenteDAO us = new UtenteDAO(em);
         RentDAO rs = new RentDAO(em);
-
+//
 
 
         Utente user1 = new Utente("Remo","Labarca", LocalDate.of(1995,2,8),489454);
